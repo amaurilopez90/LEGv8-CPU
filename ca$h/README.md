@@ -8,7 +8,7 @@ configurations for cache memory systems. For the simulations, the trace files ca
 
 # Trace Files
 The trace files have been generated on a PC. The two programs traced have been stripped by removing cache hits
-observed by a cache with 32 sets, 1-way associative, with 8 contiguous addressed per line.
+observed by a cache with 32 sets, 1-way associative, with 8 contiguous addresses per line.
 
 **Format:**
   - Each memory reference is recorded as a three-byte word. All references are stored successively without any delimiters
