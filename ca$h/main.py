@@ -119,8 +119,8 @@ def main():
 	#Print out results
 	total = MISS + HIT
 	print("Misses: %d\nHits: %d" % (MISS, HIT))
-	print("Miss Rate: %f \nHit Rate: %f" % ((MISS/total), (HIT/total)))
-	print("Total Number of References = %d" % (total))
+	print("Miss Rate: %f \nHit Rate: %f" % ((MISS/total*10), (HIT/total*10)))
+	print("Total Number of References = %d" % (total*10))
 
 #Run main
 main()
