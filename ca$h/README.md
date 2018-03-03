@@ -7,7 +7,7 @@ The purpose of this project is to study, via simulation, the performance of memo
 configurations for cache memory systems. For the simulations, the trace files can be described below.
 
 # Trace Files
-The trace files have been generated on a PC. THe two programs traced have been stripped by removing cache hits
+The trace files have been generated on a PC. The two programs traced have been stripped by removing cache hits
 observed by a cache with 32 sets, 1-way associative, with 8 contiguous addressed per line.
 
 **Format:**
