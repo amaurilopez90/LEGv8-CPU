@@ -12,8 +12,8 @@ observed by a cache with 32 sets, 1-way associative, with 8 contiguous addresses
 
 **Format:**
   - Each memory reference is recorded as a three-byte word. All references are stored successively without any delimiters
-  - Both trace files are 180,000-bytes long, and contain 60,000 3-byte memory references. The stripping algorithm elimated 90% of the original references from original traces approximately 600,000 references long
-  - The first byte of a three-byte word is the least-significant byte, the third one is the more-significant byte
+  - Both trace files are 180,000-bytes long, and contain 60,000 3-byte memory references. The stripping algorithm eliminated 90% of the original references from original traces approximately 600,000 references long
+  - The first byte of a three-byte word is the least-significant byte, the third one is the most-significant byte
   - The lower three-bits of the least-significant byte are always cleared, since only the base address of the line containing the memory words referenced is recorded
 
 **Example:** The first threee references of TRACE1.dat are 038FE8, 038FF8, and 039000, in hexadecimal form.
