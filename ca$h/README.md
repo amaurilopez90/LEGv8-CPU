@@ -22,7 +22,7 @@ DEBUG prints this information as follows:
   - 5651:0110 FF 07 F0 FF 07 78 96 03-E8 8D 03 F0 8D 03 F0 FF ....x.........
 
 # Project Goal
- To prepare a program to simiulate a cache memory system. The cache memory system will be evaluated under two replacement policies: FIFO and LRU, given the criteria below
+ To prepare a program to simulate a cache memory system. The cache memory system will be evaluated under two replacement policies: FIFO and LRU, given the criteria below
   1. L - number of bytes per line of cache memory
   2. K - number of lines per set
   3. N - number of sets
