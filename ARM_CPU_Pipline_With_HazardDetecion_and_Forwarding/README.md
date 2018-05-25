@@ -26,7 +26,7 @@ If the instruction in the EX stage needs a computed balue from a previous instru
 	1. The instruction memory in this project is designed to have 64 8-bits for each index, since this CPU is little endian
 	2. The Data Memory is made up of 31 64-bit values to show that the values could be accessed and stored via the CPU 
 
-##ISA Explanations
+## ISA Explanations
 
 ### LDUR: Load RAM into Registers
 
