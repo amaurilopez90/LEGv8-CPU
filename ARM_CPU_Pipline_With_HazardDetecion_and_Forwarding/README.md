@@ -20,7 +20,7 @@ The processor is pipelined allowing multiple instructions to run simultaneously.
 ## Hazard Detection Unit and Forwarding Unit
 Hazards are problems that could be found in the instruction pipeline of a processor that could lead to errors in the computation results. The **hazard detection unit** stalls the pipeline and inserts a "Non-Operation" until the next instruction is read. The hazard detection unit is often used when a LDUR instruction is immediately followed by an instruction that needs the use of the loaded register.
 
-If the instruction in the EX stage needs a computed balue from a previous instruction, the **forwarding unit** sends computed values from the MEM or WB stage of the pipeline to EX stage. There are multiplexers in the EX stage that pass values from the MEM and WB stage so the most current computed value can be used. 
+If the instruction in the EX stage needs a computed value from a previous instruction, the **forwarding unit** sends computed values from the MEM or WB stage of the pipeline to EX stage. There are multiplexers in the EX stage that pass values from the MEM and WB stage so the most current computed value can be used. 
  
 
 	1. The instruction memory in this project is designed to have 64 8-bits for each index, since this CPU is little endian
