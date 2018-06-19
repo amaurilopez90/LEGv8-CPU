@@ -17,7 +17,7 @@ This multi-cycle/pipelined processor can perform basic arithmetic, logic and dat
 # Important to Note
 The processor is pipelined allowing multiple instructions to run simultaneously. Buffers/caches are used in addition between each stage of the processor's operation to optimize the amount of time to run each instruction and protect against atomic reads in between register-base instructions. 
 
-**Hazard Detection Unit and Forwarding Unit**
+## Hazard Detection Unit and Forwarding Unit
 Hazards are problems that could be found in the instruction pipeline of a processor that could lead to errors in the computation results. The **hazard detection unit** stalls the pipeline and inserts a "Non-Operation" until the next instruction is read. The hazard detection unit is often used when a LDUR instruction is immediately followed by an instruction that needs the use of the loaded register.
 
 If the instruction in the EX stage needs a computed balue from a previous instruction, the **forwarding unit** sends computed values from the MEM or WB stage of the pipeline to EX stage. There are multiplexers in the EX stage that pass values from the MEM and WB stage so the most current computed value can be used. 
